@@ -5,42 +5,36 @@
 }
 
 header {
-    background-image: url("./img/vinas.jpeg");
     background-color: rgb(241, 171, 91);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 900px;
+    height: 250px;
     display:flex;
     justify-content: center;
     align-items: center;
 }
 
 header h1 {
+    filter: saturate(300%);
+    padding-top: 23px;
     color: white;
     font-weight: 800;
-    font-size: 80px;
-    background-color: #000000;
+    font-size: 45px;
     
 
-}
+    
 
-.imagem {
-    filter: blur(4px);
 }
 
 h2 {
     text-align: center;
-    padding-top: 290px;
     font-weight: bold;
-    font-size: 80px;
+    font-size: 45px;
     
 }
 
 .drink {
-    background-color: rgb(241, 171, 91);
-    padding: 380px;
-    padding-top: 240px;
-    border-radius: 5%;
+    border-radius: 6%;
 }
 
 #drinks {
@@ -52,16 +46,10 @@ h2 {
     display: flex; 
     flex-direction: column; 
     align-items: center; 
-    margin: 290px; 
 }
 
 #drinks .drink img {
-    border-radius: 6%; 
-}
-
-
-#drinks .drink p {
-    padding-top: 20px;
-    font-size: 25px;
-    
+    border-radius: 6%;
+    width: 500px; 
+    padding-top: 5px;
 }
